@@ -124,7 +124,7 @@ void loop() {
   //Show Roll filter data
   Serial.print("Roll: ");
   Serial.print(compAngleX);
-  Serial.print("\t");s
+  Serial.print("\t");
 
   //Show Pitch filter data
   Serial.print("Pitch: ");
