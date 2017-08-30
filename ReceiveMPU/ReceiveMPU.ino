@@ -1,7 +1,6 @@
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
-//
 
 double data[10];
 RF24 nrf(9,10);// CSN,CE
