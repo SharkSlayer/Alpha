@@ -13,7 +13,7 @@ int senRead = 0;
 double compAngleX, compAngleY, compAngleZ;              //angle sau khi dung complementary filter
 
 //Khai bao dia chi, store data NRF
-RF24 nrf(9, 10); // CNS, CE
+RF24 nrf(9, 10); // CE, CSN
 const uint64_t pipe = 0xE8E8F0F0E1LL;
 double data[10];
 //---------------------------------------------------------------------------------
