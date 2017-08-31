@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
-//hello
+
 double data[10];
 RF24 nrf(9,10);// CSN,CE
 const uint64_t pipe = 0xE8E8F0F0E1LL;
