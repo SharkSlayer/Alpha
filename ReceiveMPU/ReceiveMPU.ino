@@ -6,14 +6,14 @@ double data[10];
 RF24 nrf(9,10);// CSN,CE
 const uint64_t pipe = 0xE8E8F0F0E1LL;
 //---------------------------------------------------------------------------------
-void setup(void){
+void setup(){
  Serial.begin(115200);
  nrf.begin();
  nrf.openReadingPipe(1,pipe);
  nrf.startListening();
  }
 //---------------------------------------------------------------------------------
-void loop(void){
+void loop(){
   if (nrf.available())
   {
    bool done = false; 
